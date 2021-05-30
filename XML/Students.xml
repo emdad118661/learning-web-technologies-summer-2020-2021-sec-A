@@ -1,0 +1,14 @@
+<students>
+	<student>
+		<name>Emdad </name>
+		<age>21 </age>
+		<dept>CSE</dept>
+		<email>emdad118661@aiub.edu</email>
+	</student>
+	<student>
+		<name>Dihan </name>
+		<age>22 </age>
+		<dept>Textile Eng. </dept>
+		<email>dihan90@aiub.edu</email>
+	</student>
+</students>
