@@ -30,7 +30,7 @@
                         <a href="editProfile.html">Edit Profile</a>
                     </li>
                     <li>
-                        <a href="ProfilePic.html">Change Profile Picture</a>
+                        <a href="ProfilePic.php">Change Profile Picture</a>
                     </li>
                     <li>
                         <a href="ChangePass.php">Change Password</a>
