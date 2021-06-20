@@ -1,0 +1,157 @@
+<html>
+
+<head>
+	<title>Dashboard</title>
+</head>
+
+<body>
+	<table border="1" width="100%">
+		<tr>
+			<td>
+				<img src="Xcompany.png" alt="logo" width="100px" height="50px">
+			</td>
+			
+			<td align="right">
+				Loggedin as "UserName" | <a href="login.html"> Logout</a>
+			</td>
+		</tr>
+		
+		<tr style="height:150px;">
+			<td>
+				<h4>Account</h4><br>
+                <ul>
+                    <li>
+                        <a href="DashBoard.php">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="viewProfile.html">View Profile</a>
+                    </li>
+                    <li>
+                        <a href="EditProfile.php">Edit Profile</a>
+                    </li>
+                    <li>
+                        <a href="ProfilePic.php">Change Profile Picture</a>
+                    </li>
+                    <li>
+                        <a href="ChangePass.php">Change Password</a>
+                    </li>
+                    <li>
+                        <a href="login.php">Logout</a>
+                    </li>
+                </ul>
+			</td>
+            <td>
+            	<form method="post" action="registrationCheck.php">
+        <fieldset>
+            <legend>registration</legend>
+    <table border="1px"  width="100%px">
+        <tr>
+            <th colspan="3">
+                <h1 align="center">PERSON PROFILE</h1>
+            </th>
+        </tr>
+        <tr>
+            <th >
+                Name
+            </th>
+            <td>
+                <input type="text" name="name"><br/>
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        <tr>
+            <th >
+                Email
+            </th>
+            <td>
+                <input type="email" name="email"><br/>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        <tr>
+            <th >
+                User Name
+            </th>
+            <td>
+                <input type="text" name="username"><br/>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+         <tr>
+            <th >
+                Password
+            </th>
+            <td>
+                <input type="password" name="password"><br/>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        <tr>
+            <th >
+                Confirm Password
+            </th>
+            <td>
+                <input type="password" name="repassword"><br/>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        <tr>
+            <th >
+                Gender
+            </th>
+            <td>
+                <input type="radio" value="Male" name="genderinput">Male
+                <input type="radio" value="female" name="genderinput">Female
+                <input type="radio" value="others" name="genderinput">others
+            </td>
+            
+        </tr>
+        <tr>
+            <th >
+                Date of Birth
+            </th>
+            <td>
+                <input type="date" name="dob"><br/>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <th colspan="3" height="20">
+               
+                
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3" height="20">
+                <input type="submit" name="click" value="Submit" aligh="right">
+                <input type="reset" name="click" value="Reset" aligh="right">
+                
+            </td>
+        </tr>
+    </table>
+</fieldset>
+</form>
+            </td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" align="center">
+				Copyright @ 2017
+			</td>
+		</tr>			
+	</table>
+</body>
+</html>

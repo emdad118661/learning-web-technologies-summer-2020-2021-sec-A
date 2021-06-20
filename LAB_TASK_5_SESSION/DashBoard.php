@@ -27,7 +27,7 @@
                         <a href="viewProfile.html">View Profile</a>
                     </li>
                     <li>
-                        <a href="editProfile.html">Edit Profile</a>
+                        <a href="EditProfile.php">Edit Profile</a>
                     </li>
                     <li>
                         <a href="ProfilePic.php">Change Profile Picture</a>
