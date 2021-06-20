@@ -25,7 +25,7 @@
 					<tr>
 						<td></td>
 						<td><input type="submit" name="submit" value="Submit">
-							<a href="forgetPass.php">Forget Password</a>
+							<a href="forgetPass.html">Forget Password</a>
 						</td>
 					</tr>
 				</table>

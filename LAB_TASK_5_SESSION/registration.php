@@ -18,7 +18,7 @@
                 Name
             </th>
             <td>
-                <input type="text" value=""><br/>
+                <input type="text" name="username"><br/>
             </td>
             <td>
 
@@ -29,7 +29,7 @@
                 Email
             </th>
             <td>
-                <input type="text" value=""><br/>
+                <input type="email" name="email"><br/>
             </td>
             <td>
                 
@@ -40,7 +40,7 @@
                 User Name
             </th>
             <td>
-                <input type="text" value=""><br/>
+                <input type="text" name="username"><br/>
             </td>
             <td>
                 
@@ -51,7 +51,7 @@
                 Password
             </th>
             <td>
-                <input type="text" value=""><br/>
+                <input type="password" name="password"><br/>
             </td>
             <td>
                 
@@ -62,7 +62,7 @@
                 Confirm Password
             </th>
             <td>
-                <input type="text" value=""><br/>
+                <input type="password" name="password"><br/>
             </td>
             <td>
                 
