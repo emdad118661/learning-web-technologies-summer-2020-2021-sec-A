@@ -18,7 +18,7 @@
                 Name
             </th>
             <td>
-                <input type="text" name="username"><br/>
+                <input type="text" name="name"><br/>
             </td>
             <td>
 
@@ -62,7 +62,7 @@
                 Confirm Password
             </th>
             <td>
-                <input type="password" name="password"><br/>
+                <input type="password" name="repassword"><br/>
             </td>
             <td>
                 
@@ -84,7 +84,7 @@
                 Date of Birth
             </th>
             <td>
-                <input type="date" id="birthday" name="birthday"><br/>
+                <input type="date" name="dob"><br/>
             </td>
             <td>
                 
