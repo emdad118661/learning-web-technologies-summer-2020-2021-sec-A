@@ -1,11 +1,12 @@
 <html>
 
 <head>
-	<title> Home | Leaf </title>
+	<title> Events | Leaf </title>
 </head>
 
 <body>
 	<table border="1" width="100%">
+        <form method="post" action="../controller/eventCheck.php">
 		<tr>
 			<td>
 				<img src="Companylogo.png" alt="logo" width="100px" height="50px">
@@ -88,9 +89,10 @@
                     </li>
                 </ul>
 			</td>
-            <td align="center"> <table border=".5">
-                
-            </table>
+            <td> 
+                <label>Date: <br><input type="date" name="date"><br></label>
+                <label>Event  : <br><textarea cols="70" rows="10" name="event"></textarea><br></label>
+                <input type="submit" name="submit" value="Submit">
             </td>
 		</tr>
 		
@@ -98,7 +100,8 @@
 			<td colspan="2" align="center">
 				18-39032-3@student.aiub.edu
 			</td>
-		</tr>			
+		</tr>
+      </form>  			
 	</table>
 </body>
 </html>
