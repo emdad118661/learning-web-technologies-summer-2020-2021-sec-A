@@ -1,11 +1,12 @@
 <html>
 
 <head>
-	<title> Weather | Leaf </title>
+	<title> Articles | Leaf </title>
 </head>
 
 <body>
 	<table border="1" width="100%">
+	  <form method="post" action="../controller/articleCheck.php">
 		<tr>
 			<td>
 				<img src="Companylogo.png" alt="logo" width="100px" height="50px">
@@ -88,45 +89,10 @@
                     </li>
                 </ul>
 			</td>
-            <td align="center">
-                <table border="1">
-                    <h3>Weather Update</h3>
-                    <tr><th>Date</th>
-                        <th>Temp</th>
-                        <th>Humadity</th>
-                        <th>Wind</th>
-                    </tr>
-                    <tr>
-                        <td>6/30/21</td>
-                        <td>31 degree C</td>
-                        <td>70%</td>
-                        <td>23 km/h</td>
-                    </tr>
-                    <tr>
-                        <td>7/1/21</td>
-                        <td>29 degree C</td>
-                        <td>76%</td>
-                        <td>17 km/h</td>
-                    </tr>
-                    <tr>
-                        <td>7/2/21</td>
-                        <td>30 degree C</td>
-                        <td>73%</td>
-                        <td>21 km/h</td>
-                    </tr>
-                    <tr>
-                        <td>7/3/21</td>
-                        <td>25 degree C</td>
-                        <td>75%</td>
-                        <td>12 km/h</td>
-                    </tr>
-                    <tr>
-                        <td>7/4/21</td>
-                        <td>35 degree C</td>
-                        <td>60%</td>
-                        <td>23 km/h</td>
-                    </tr>
-                </table>
+            <td> 
+            	<label>Headline: <br><textarea cols="40" rows="2" name="headline"></textarea><br></label>
+	            <label>Your Article  : <br><textarea cols="70" rows="10" name="answer"></textarea><br></label>
+	            <input type="submit" name="post" value="Post">
             </td>
 		</tr>
 		
@@ -134,7 +100,8 @@
 			<td colspan="2" align="center">
 				18-39032-3@student.aiub.edu
 			</td>
-		</tr>			
+		</tr>
+		</form>			
 	</table>
 </body>
 </html>

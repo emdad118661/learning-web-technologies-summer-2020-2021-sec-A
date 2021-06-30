@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title> Weather | Leaf </title>
+	<title> Gallery | Leaf </title>
 </head>
 
 <body>
@@ -45,7 +45,7 @@
                         <a href="news.php">News</a>
                     </li>
                     <li>
-                        <a href="gallary.php">Gallary</a>
+                        <a href="gallary.php">Gallery</a>
                     </li>
                     <li>
                         <a href="contact.php">Contact Us</a>
@@ -88,45 +88,22 @@
                     </li>
                 </ul>
 			</td>
-            <td align="center">
-                <table border="1">
-                    <h3>Weather Update</h3>
-                    <tr><th>Date</th>
-                        <th>Temp</th>
-                        <th>Humadity</th>
-                        <th>Wind</th>
-                    </tr>
-                    <tr>
-                        <td>6/30/21</td>
-                        <td>31 degree C</td>
-                        <td>70%</td>
-                        <td>23 km/h</td>
-                    </tr>
-                    <tr>
-                        <td>7/1/21</td>
-                        <td>29 degree C</td>
-                        <td>76%</td>
-                        <td>17 km/h</td>
-                    </tr>
-                    <tr>
-                        <td>7/2/21</td>
-                        <td>30 degree C</td>
-                        <td>73%</td>
-                        <td>21 km/h</td>
-                    </tr>
-                    <tr>
-                        <td>7/3/21</td>
-                        <td>25 degree C</td>
-                        <td>75%</td>
-                        <td>12 km/h</td>
-                    </tr>
-                    <tr>
-                        <td>7/4/21</td>
-                        <td>35 degree C</td>
-                        <td>60%</td>
-                        <td>23 km/h</td>
-                    </tr>
-                </table>
+            <td align="center"> <form method="POST" action="../controller/gallaryCheck.php" enctype="multipart/form-data">
+            <table border="1">
+                <tr>
+                    <td>Image: </td>
+                    <td>
+                        <input type="file" name="image">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
             </td>
 		</tr>
 		

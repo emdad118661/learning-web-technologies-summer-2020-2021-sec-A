@@ -88,8 +88,9 @@
                     </li>
                 </ul>
 			</td>
-            <td> 
-                <h1>Top 10 Successfull Farmers</h1>
+            <td>
+                <h1><u>News</u></h1>
+                <h3>Top 10 Successfull Farmers</h3>
                 <p>Over the course of each year, Successful Farming magazine editors talk to hundreds of farmers. Some on the phone to get updates on crop progress in their areas, some via Twitter to hear what farmers think of the latest policy changes, and some on the farm. These are the best, in my opinion, because this is when you get to see a farmer in his or her element. This is when you can best understand who they are as a farmer, innovator, businessman, environmentalist, parent, and more.</p>
 
                 <p>From these interviews, emerge a plethora of stories. While the approach for each story differs, the goal is the same: To share the lessons learned from one farmer so they can help another. </p>
