@@ -27,7 +27,7 @@
 		fclose($write);
 		#display com#
 
-		$read = fopen("qna.txt", "r+t");
+		$read = fopen("qna.txt", "r");
 		echo "Question & Answers:<br>";
 
 		while(!feof($read)){

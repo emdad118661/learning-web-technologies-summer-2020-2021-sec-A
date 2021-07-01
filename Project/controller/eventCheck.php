@@ -27,7 +27,7 @@
 		fclose($write);
 		#display com#
 
-		$read = fopen("event.txt", "r+t");
+		$read = fopen("event.txt", "r");
 		echo "Event:<br>";
 
 		while(!feof($read)){

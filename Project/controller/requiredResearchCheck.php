@@ -25,7 +25,7 @@
         fclose($write);
         #display com#
 
-        $read = fopen("requiredResearch.txt", "r+t");
+        $read = fopen("requiredResearch.txt", "r");
         echo "<b>Your Required Research:</b><br>";
 
         while(!feof($read)){

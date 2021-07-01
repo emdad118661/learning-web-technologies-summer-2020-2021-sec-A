@@ -25,7 +25,7 @@
         fclose($write);
         #display com#
 
-        $read = fopen("courseList.txt", "r+t");
+        $read = fopen("courseList.txt", "r");
         echo "<b>Your Course List:</b><br>";
 
         while(!feof($read)){
