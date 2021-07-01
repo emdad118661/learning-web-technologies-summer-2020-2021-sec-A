@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Gallary | Leaf</title>
+	<title>Upload Research | Leaf</title>
 </head>
 <body>
 	<center>

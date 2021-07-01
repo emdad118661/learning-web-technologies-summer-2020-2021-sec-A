@@ -13,7 +13,7 @@
 			</td>
 			
 			<td align="right">
-				Loggedin as  | <a href="login.php"> Logout</a>
+				<a href="login.php"> Logout</a>
 			</td>
 		</tr>
 		
@@ -65,9 +65,6 @@
                     </li>
                     <li>
                         <a href="courses.php">Courses</a>
-                    </li>
-                    <li>
-                        <a href="helpline.php">Emergency Helpline</a>
                     </li>
                     <li>
                         <a href="research.php">Research</a>

@@ -16,7 +16,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Signup Page</title>
+	<title>Signup | Leaf</title>
 </head>
 <body>
 	<h3>Signup | Leaf</h3>

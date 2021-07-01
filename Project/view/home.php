@@ -93,7 +93,7 @@
                     </li>
                 </ul>
 			</td>
-            <td align="center"> <h3> Welcome UserName </h3><br>
+            <td align="center"> <h3> Welcome,Sir!!</h3><br>
                                 <h4> <u>Description</u> </h4><br>
                                 <p> This is the website for farmers to solve their farm related problem. Besides, they can also learn about farming through courses. They can connected with chat,QnA,News,Articles</p>
             </td>
