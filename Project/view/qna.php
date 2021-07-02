@@ -46,7 +46,7 @@
                         <a href="news.php">News</a>
                     </li>
                     <li>
-                        <a href="gallary.php">Gallary</a>
+                        <a href="optionGallaryy.php">Gallary</a>
                     </li>
                     <li>
                         <a href="contact.php">Contact Us</a>

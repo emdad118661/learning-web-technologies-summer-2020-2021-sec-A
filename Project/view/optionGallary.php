@@ -1,12 +1,11 @@
 <html>
 
 <head>
-	<title> Articles | Leaf </title>
+	<title> Gallery | Leaf </title>
 </head>
 
 <body>
 	<table border="1" width="100%">
-	  <form method="post" action="../controller/articleCheck.php">
 		<tr>
 			<td>
 				<img src="Companylogo.png" alt="logo" width="100px" height="50px">
@@ -46,7 +45,7 @@
                         <a href="news.php">News</a>
                     </li>
                     <li>
-                        <a href="optionGallary.php">Gallary</a>
+                        <a href="optionGallary.php">Gallery</a>
                     </li>
                     <li>
                         <a href="contact.php">Contact Us</a>
@@ -86,28 +85,9 @@
                     </li>
                 </ul>
 			</td>
-            <td> 
-	            <table border=".5" align="left">
-                    <tr>
-                        <td>
-                            Hi, How are you?
-                        </td>
-                    </tr>
-                </table><br><br>
-                <table border=".5" align="right">
-                    <tr>
-                        <td>
-                            I am fine, thank you.And you?                                 
-                        </td>
-                    </tr>
-                </table><br><br>
-                <table border=".5" align="left">
-                    <tr>
-                        <td>
-                            I am also fine, thank you.                                
-                        </td>
-                    </tr>
-                </table>
+            <td align="center"> 
+                <a href="../controller/assets/showGallary.php">See Gallery</a> |
+                <a href="gallary.php">Upload Image</a>
             </td>
 		</tr>
 		
@@ -115,8 +95,7 @@
 			<td colspan="2" align="center">
 				18-39032-3@student.aiub.edu
 			</td>
-		</tr>
-		</form>			
+		</tr>			
 	</table>
 </body>
 </html>
