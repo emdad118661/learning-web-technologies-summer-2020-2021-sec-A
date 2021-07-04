@@ -75,12 +75,27 @@
                         <a href="Help.php">Help & Suggestion</a>
                     </li>
                     <li>
+                        <a href="sponsorList.php">Sponsor list</a>
+                    </li>
+                    <li>
+                        <a href="attendence.php">Attendence</a>
+                    </li>
+                    <li>
+                        <a href="notification.php">Notificaton</a>
+                    </li>
+                    <li>
+                        <a href="accVerification.php">Account Verification</a>
+                    </li>
+                    <li>
+                        <a href="deleteAccount.php">Delete Account</a>
+                    </li>
+                    <li>
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
 			</td>
             <td align="center">
-                <h1>Course List:</h1>
+                <h1>Event List:</h1>
                 <?php
                       $File = "../controller/event.txt";
                       $fh = fopen($File, 'r');

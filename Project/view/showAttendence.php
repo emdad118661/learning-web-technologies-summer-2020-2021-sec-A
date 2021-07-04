@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title> Course | Leaf </title>
+	<title> Attendence | Leaf </title>
 </head>
 
 <body>
@@ -94,9 +94,15 @@
                     </li>
                 </ul>
 			</td>
-            <td align="center"> 
-                <a href="showCourseList.php">List of Courses</a> |
-                <a href="uploadCourses.php">Upload Course Videos</a>
+            <td align="center">
+                <h1>Attendence:</h1>
+                <?php
+                      $File = "../controller/attendence.txt";
+                      $fh = fopen($File, 'r');
+                      $theData = fread($fh, filesize("../controller/attendence.txt"));
+                      fclose($fh);
+                      echo $theData;
+                ?>
             </td>
 		</tr>
 		

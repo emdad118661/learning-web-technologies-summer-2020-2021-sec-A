@@ -1,24 +1,25 @@
 <html>
 
 <head>
-	<title> Course | Leaf </title>
+    <title> !!Delete Account!! | Leaf </title>
 </head>
 
 <body>
-	<table border="1" width="100%">
-		<tr>
-			<td>
-				<img src="Companylogo.png" alt="logo" width="100px" height="50px">
-			</td>
-			
-			<td align="right">
-				<a href="login.php"> Logout</a>
-			</td>
-		</tr>
-		
-		<tr style="height:150px;">
-			<td>
-				<h4>Account</h4><br>
+    <table border="1" width="100%">
+        <form method="post" action="../controller/deleteaccountcheck.php">
+        <tr>
+            <td>
+                <img src="Companylogo.png" alt="logo" width="100px" height="50px">
+            </td>
+            
+            <td align="right">
+                <a href="login.php"> Logout</a>
+            </td>
+        </tr>
+        
+        <tr style="height:150px;">
+            <td>
+                <h4>Account</h4><br>
                 <ul>
                     <li>
                         <a href="home.php">Dashboard</a>
@@ -42,7 +43,7 @@
                         <a href="news.php">News</a>
                     </li>
                     <li>
-                        <a href="optionGallary.php">Gallery</a>
+                        <a href="optionGallary.php">Gallary</a>
                     </li>
                     <li>
                         <a href="contact.php">Contact Us</a>
@@ -93,18 +94,26 @@
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
-			</td>
-            <td align="center"> 
-                <a href="showCourseList.php">List of Courses</a> |
-                <a href="uploadCourses.php">Upload Course Videos</a>
             </td>
-		</tr>
-		
-		<tr>
-			<td colspan="2" align="center">
-				18-39032-3@student.aiub.edu
-			</td>
-		</tr>			
-	</table>
+            <td> 
+                <h1>Delete Account!!!!!!!!!!!!!!</h1>
+                are you sure, you want to delete your account?? You will no longer get this account return, if you click yes!!!
+                If you do not want to delete, just select others options on the left side.
+                <br>
+                <ul>
+                   <li>
+                        <a href="../controller/deleteaccountcheck.php">Yes</a>
+                    </li>
+                </ul>     
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="2" align="center">
+                18-39032-3@student.aiub.edu
+            </td>
+        </tr>
+      </form>           
+    </table>
 </body>
 </html>
