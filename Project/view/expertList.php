@@ -33,9 +33,6 @@
                         <a href="ProfilePic.php">Change Profile Picture</a>
                     </li>
                     <li>
-                        <a href="ChangePass.php">Change Password</a>
-                    </li>
-                    <li>
                         <a href="article.php">Articles</a>
                     </li>
                     <li>
@@ -78,33 +75,20 @@
                         <a href="Help.php">Help & Suggestion</a>
                     </li>
                     <li>
-                        <a href="DeleteAccount.php">Delete Account</a>
-                    </li>
-                    <li>
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
 			</td>
             <td align="center">
                 <h1>Expert List:</h1>
-                <table border=".5">
-                    <tr>
-                        <th>Name</th>
-                        <th>email</th>
-                    </tr>
-                    <tr>
-                        <td>emdad</td>
-                        <td>emdad118661@gmail.com</td>
-                    </tr>
-                    <tr>
-                        <td>sabuj</td>
-                        <td>sabuj09@gmail.com</td>
-                    </tr>
-                </table>
-                    </td>
-                </tr>
-            </table>
-        </form>
+                <h3>Name | Password | email</h3>
+                <?php
+                      $File = "../controller/users.txt";
+                      $fh = fopen($File, 'r');
+                      $theData = fread($fh, filesize("../controller/users.txt"));
+                      fclose($fh);
+                      echo $theData;
+                ?> 
             </td>
 		</tr>
 		

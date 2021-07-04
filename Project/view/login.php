@@ -4,6 +4,8 @@
 	<title>Login | Leaf</title>
 </head>
 <body>
+		<img src="Companylogo.png" height="100px" width="200px"><br>
+		<a href="signup.php">Signin</a><br>
 		<h3>Login Page</h3>
 		<form method="post" action="../controller/loginCheck.php">
 			<fieldset>

@@ -40,7 +40,7 @@
 	else{
 		#display com#
 
-		$read = fopen("qna.txt", "r+t");
+		$read = fopen("qna.txt", "r");
 		echo "Questions & Answers:<br>";
 
 		while(!feof($read)){

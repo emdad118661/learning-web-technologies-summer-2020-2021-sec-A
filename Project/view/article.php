@@ -34,9 +34,6 @@
                         <a href="ProfilePic.php">Change Profile Picture</a>
                     </li>
                     <li>
-                        <a href="ChangePass.php">Change Password</a>
-                    </li>
-                    <li>
                         <a href="article.php">Articles</a>
                     </li>
                     <li>
@@ -79,9 +76,6 @@
                         <a href="Help.php">Help & Suggestion</a>
                     </li>
                     <li>
-                        <a href="DeleteAccount.php">Delete Account</a>
-                    </li>
-                    <li>
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
@@ -90,6 +84,9 @@
             	<label>Headline: <br><textarea cols="40" rows="2" name="headline"></textarea><br></label>
 	            <label>Your Article  : <br><textarea cols="70" rows="10" name="answer"></textarea><br></label>
 	            <input type="submit" name="post" value="Post">
+                <br>
+                <br>
+                <a href="showArticle.php">View your previous articles</a>
             </td>
 		</tr>
 		

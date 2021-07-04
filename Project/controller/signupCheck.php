@@ -1,4 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallary | Leaf</title>
+</head>
+<body>
+	<center>
+		<img src="Companylogo.png" height="100px" width="200px"><br>
+		<a href="../view/login.php">Login</a> |
+		<a href="../view/signup.php">Back</a> 
+		
+	</center>
+</body>
+</html>
 <?php
+    
 	session_start();
 
 	if(isset($_POST['submit'])){
@@ -24,5 +39,4 @@
 	}else{
 		echo "invalid request...";
 	}
-
 ?>

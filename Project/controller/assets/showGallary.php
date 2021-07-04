@@ -1,7 +1,6 @@
-
  <?php
 
-     echo "<h3>Gallary</h3>";
+     echo "<h1 align='center'><u>Gallery</u></h1><br>";
      foreach(glob("*.png") as $filename){
      	echo "<p>$filename</p><br>";
      	echo "<img src='$filename' alt='$filename'/>";

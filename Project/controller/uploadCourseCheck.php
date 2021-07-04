@@ -17,7 +17,7 @@
 	  $coursevideosize = $_FILES['video']['size'];
 	  $coursevideotemp = $_FILES['video']['tmp_name'];
 	  $coursext = explode('.', $coursevideoname);
-	  $courselocation = 'videos/'.time().'.'.$coursext[1];
+	  $courselocation = 'videos/'.$coursevideoname;
 	  if(move_uploaded_file($coursevideotemp, $courselocation)){
 		echo "<video width=320 height=240 controls>
               <source src=".$courselocation." type=video/mp4>

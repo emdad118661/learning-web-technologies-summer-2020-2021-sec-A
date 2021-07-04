@@ -39,7 +39,7 @@
 	else{
 		#display com#
 
-		$read = fopen("help.txt", "r+t");
+		$read = fopen("help.txt", "r");
 		echo "Your Issues:<br>";
 
 		while(!feof($read)){

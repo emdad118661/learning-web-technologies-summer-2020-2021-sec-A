@@ -40,7 +40,7 @@
 	else{
 		#display com#
 
-		$read = fopen("article.txt", "r+t");
+		$read = fopen("article.txt", "r");
 		echo "Your Articles:<br>";
 
 		while(!feof($read)){

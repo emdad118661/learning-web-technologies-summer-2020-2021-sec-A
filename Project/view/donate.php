@@ -33,9 +33,6 @@
                         <a href="ProfilePic.php">Change Profile Picture</a>
                     </li>
                     <li>
-                        <a href="ChangePass.php">Change Password</a>
-                    </li>
-                    <li>
                         <a href="article.php">Articles</a>
                     </li>
                     <li>
@@ -78,9 +75,6 @@
                         <a href="Help.php">Help & Suggestion</a>
                     </li>
                     <li>
-                        <a href="DeleteAccount.php">Delete Account</a>
-                    </li>
-                    <li>
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
@@ -104,12 +98,11 @@
         </form>
             </td>
 		</tr>
-		
 		<tr>
-			<td colspan="2" align="center">
-				18-39032-3@student.aiub.edu
-			</td>
-		</tr>			
+            <td colspan="2" align="center">
+                18-39032-3@student.aiub.edu
+            </td>
+        </tr>			
 	</table>
 </body>
 </html>

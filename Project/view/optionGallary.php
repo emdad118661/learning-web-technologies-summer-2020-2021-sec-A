@@ -30,12 +30,6 @@
                         <a href="EditProfile.php">Edit Profile</a>
                     </li>
                     <li>
-                        <a href="ProfilePic.php">Change Profile Picture</a>
-                    </li>
-                    <li>
-                        <a href="ChangePass.php">Change Password</a>
-                    </li>
-                    <li>
                         <a href="article.php">Articles</a>
                     </li>
                     <li>
@@ -78,15 +72,12 @@
                         <a href="Help.php">Help & Suggestion</a>
                     </li>
                     <li>
-                        <a href="DeleteAccount.php">Delete Account</a>
-                    </li>
-                    <li>
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
 			</td>
             <td align="center"> 
-                <a href="../controller/assets/showGallary.php">See Gallery</a> |
+                <a href="../controller/assets/showGallary.php">View Gallery</a> |
                 <a href="gallary.php">Upload Image</a>
             </td>
 		</tr>
