@@ -12,9 +12,6 @@
 			$data = fread($file, filesize('users.txt'));
 			$user = explode('|', $data);
 
-			//$data = fgets($file);
-			//$user = explode('|', $data);
-			//feof($file);
 
 			if(trim($user[0]) == $username && trim($user[1]) == $password){
 					setcookie('flag', 'true', time()+3600, '/');

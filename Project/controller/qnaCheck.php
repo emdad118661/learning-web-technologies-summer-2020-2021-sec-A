@@ -20,7 +20,7 @@
 	$post = $_POST["post"];
 
 	if($post){
-		#write down comments#
+		
 
 		$write = fopen("qna.txt", "a+");
 		fwrite($write, "<u><b> $question</b></u><br>$answer<br>");
@@ -38,7 +38,7 @@
 
 	}
 	else{
-		#display com#
+		
 
 		$read = fopen("qna.txt", "r");
 		echo "Questions & Answers:<br>";

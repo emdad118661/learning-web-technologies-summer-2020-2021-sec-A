@@ -19,7 +19,6 @@
 	$submit = $_POST["submit"];
 
 	if($submit){
-		#write down comments#
 
 		$write = fopen("help.txt", "a+");
 		fwrite($write, "<u><b> $issue</b></u><br>");
@@ -37,7 +36,6 @@
 
 	}
 	else{
-		#display com#
 
 		$read = fopen("help.txt", "r");
 		echo "Your Issues:<br>";
