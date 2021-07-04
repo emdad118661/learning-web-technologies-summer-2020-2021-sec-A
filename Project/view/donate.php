@@ -96,6 +96,7 @@
 			</td>
             <td>
                 <h1>Select method:</h1>
+                <p>Donate in this number: 017***********</p>
                 <ul>
                     <li>
                         <a href="https://www.bkash.com/app/">Bkash</a>

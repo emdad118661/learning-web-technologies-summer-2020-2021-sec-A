@@ -7,7 +7,7 @@
     <center>
         <img src="Companylogo.png" height="100px" width="200px"><br>
         <a href="../view/login.php">Logout</a> |
-        <a href="../view/requiredResearch.php">Back</a>
+        <a href="../view/courseList.php">Back</a>
         
     </center>
 </body>
