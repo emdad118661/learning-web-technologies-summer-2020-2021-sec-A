@@ -17,7 +17,7 @@
 	  $researchfilesize = $_FILES['file']['size'];
 	  $researchfiletemp = $_FILES['file']['tmp_name'];
 	  $researchext = explode('.', $researchfilename);
-	  $researchlocation = 'files/'.time().'.'.$researchext[1];
+	  $researchlocation = 'files/'.$researchfilename;
 	  if(move_uploaded_file($researchfiletemp, $researchlocation)){
 		echo "<a href=".$researchlocation.">Uploaded file</a>";
 	  }else{

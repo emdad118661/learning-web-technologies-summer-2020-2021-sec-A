@@ -81,7 +81,8 @@
 			</td>
             <td align="center"> 
                 <a href="requiredResearch.php">Required Reasearch</a> |
-                <a href="uploadResearch.php">Upload Reasearch Result</a>
+                <a href="uploadResearch.php">Upload Reasearch Result</a> |
+                <a href="../controller/files/showResearchResult.php">View all uploaded researches by you</a>
             </td>
 		</tr>
 		

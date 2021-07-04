@@ -1,3 +1,12 @@
+ <<!DOCTYPE html>
+ <html>
+ <head>
+     <title>Gallery | Leaf</title>
+ </head>
+ <body>
+ 
+ </body>
+ </html>
  <?php
 
      echo "<h1 align='center'><u>Gallery</u></h1><br>";
