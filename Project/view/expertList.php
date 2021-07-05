@@ -95,6 +95,12 @@
                 </ul>
 			</td>
             <td align="center">
+                <table>
+                    <tr>
+                        <td><input type="submit" name="submit" value="Search"></td><br>
+                        <td><input type="text" name="search"></td>
+                    </tr>
+                </table>
                 <h1>Expert List:</h1>
                 <h3>Name | Password | email</h3>
                 <?php
