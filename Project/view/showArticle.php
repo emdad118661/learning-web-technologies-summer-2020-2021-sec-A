@@ -95,7 +95,7 @@
                 </ul>
 			</td>
             <td align="center">
-                <h1>Course List:</h1>
+                <h1>Articles:</h1>
                 <?php
                       $File = "../controller/article.txt";
                       $fh = fopen($File, 'r');
