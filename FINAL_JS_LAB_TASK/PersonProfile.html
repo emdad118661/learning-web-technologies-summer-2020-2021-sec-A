@@ -1,0 +1,130 @@
+<html>
+
+<head>
+	<title>Registration</title>
+</head>
+<script>
+    function validate(){
+        var name = document.profile.name;
+        var email = document.profile.email;
+        var bloodGroup = document.profile.bloodGroup;
+        var degree = document.profile.degree;
+        var gender = document.profile.gender;
+        var dob = document.profile.dob;
+        var photo = document.profile.photo;
+
+        if(name.value.length <= 0){
+            alert("Name is required");
+            name.foucus();
+            return false;
+        }
+        if(name.value.length < 2){
+            alert("Name should be more than 2 charecters");
+            name.foucus();
+            return false;
+        }
+        if(email.value.length <= 0){
+            alert("Email is required");
+            email.foucus();
+            return false;
+        }
+        return false;
+    }
+</script>
+
+<body>
+	
+		
+		
+				<form method="" action="" name="profile" onsubmit="return validate()">
+                    <fieldset style="width:400px">
+                        <legend>PERSON PROFILE</legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    Name :
+                                </td>
+                                <td>
+                                    <input type="text" name="name" value="">
+                                </td>
+                            </tr>
+            
+                            <tr>
+                                <td>
+                                    Email :
+                                </td>
+                                <td>
+                                    <input type="email" name="email" value="">
+                                </td>
+                            </tr>
+            
+                            <tr>
+                                <td>
+                                    Blood Group :
+                                </td>
+                                <td>
+                                    <select name="blood" id="blood">
+                                    <option value=""></option>
+                                    <option value="A+">A+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="B+">B+</option>
+                                    <option value="B-">B-</option>
+                                    <option value="AB+">AB+</option>
+                                    <option value="AB-">AB-</option>
+                                    <option value="O+">O+</option>
+                                    <option value="O-">O-</option>
+                                </td>
+                            </tr>
+            
+                            <tr>
+                                <td>
+                                    Degree :
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="ssc" id="ssc"> SSC
+                                    <input type="checkbox" name="hsc" id="hsc"> HSC
+                                    <input type="checkbox" name="bsc" id="bsc"> BSc
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <fieldset>
+                                        <legend>Gender</legend>
+                                        <input type="radio" name="gender" value="Male">Male
+                                        <input type="radio" name="gender" value="Female">Female
+                                        <input type="radio" name="gender" value="Other">Other
+                                    </fieldset>
+                                </td>
+                            </tr>
+            
+                            <tr>
+                                <td colspan="2">
+                                    <fieldset>
+                                        <legend>Date of Birth</legend>
+                                        <input type="date" name="dob" value="Male">
+                                    </fieldset>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Photo :
+                                </td>
+                                <td>
+                                   <input type="file" name="pic" id="pic">
+                                </td> 
+                            </tr>
+            
+                            <tr>
+                                <td colspan="2">
+                                    <br>
+                                    <br>
+                                    <input type="submit" name="signup" value="Submit">
+                                    <input type="reset" name="reset" value="Reset">
+                                </td>
+                            </tr>
+            
+                        </table>
+                    </fieldset>
+                </form>
+</body>
+</html>
