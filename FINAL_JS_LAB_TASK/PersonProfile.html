@@ -7,7 +7,7 @@
     function validate(){
         var name = document.profile.name;
         var email = document.profile.email;
-        var bloodGroup = document.profile.bloodGroup;
+        var blood = document.profile.blood;
         var degree = document.profile.degree;
         var gender = document.profile.gender;
         var dob = document.profile.dob;
@@ -26,6 +26,11 @@
         if(email.value.length <= 0){
             alert("Email is required");
             email.foucus();
+            return false;
+        }
+        if(blood.value.length <= 0){
+            alert("Email is required");
+            blood.foucus();
             return false;
         }
         return false;
