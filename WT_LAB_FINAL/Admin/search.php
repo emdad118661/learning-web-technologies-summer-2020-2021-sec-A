@@ -6,7 +6,7 @@ if(isset($_GET['q'])){
 	$data = $_GET['q'];
 }
 
-$db = new mysqli('localhost', 'root','','ajax');
+$db = new mysqli('localhost', 'root','user','ajax');
 
 if($db->connect_error){
 	exit('Server not found');
